@@ -1703,7 +1703,7 @@ local welcomeMessage = GUISettings.CreateToggle({
 	Name = "GUI bind indicator", 
 	Function = function() end, 
 	Default = true,
-	HoverText = 'Displays a message indicating your GUI keybind upon injecting.\nI.E "Press RIGHTSHIFT to open GUI"'
+	HoverText = 'Displays a message indicating your GUI keybind upon injecting.\nI.E "Press M to open GUI"'
 })
 GUISettings.CreateToggle({
 	Name = "Old Rainbow", 
